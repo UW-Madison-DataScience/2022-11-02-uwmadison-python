@@ -183,7 +183,7 @@ Modify the block below if there are any special requirements.
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants must also be familiar using Git and the command shell, as well as basic knowledge of programming in Python. Participants can take a (<a href="https://carpentries-incubator.github.io/python-intermediate-development/quiz/index.html">short quiz</a>) to test their prerequisite knowledge.
+  They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants must also be familiar using Git and the command shell, as well as basic knowledge of programming in Python. Participants can take a <a href="https://carpentries-incubator.github.io/python-intermediate-development/quiz/index.html">short quiz</a> to test their prerequisite knowledge.
 </p>
 
 {% comment %}
