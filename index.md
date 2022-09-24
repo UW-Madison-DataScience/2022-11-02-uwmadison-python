@@ -4,20 +4,20 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "UW-Madison"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Room 1109, McArdle Building, 447 Lorch Street"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Room 1106, DSI Conference Room, McArdle Building, 447 Lorch Street"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "November 2-3, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2022-11-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2022-11-3      # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["TBD] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["facilitator@datascience.wisc.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: "https://pad.carpentries.org/2022-11-02-uwmadison-python" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 426255199777        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+startdate: 2022-11-02     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-11-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["TDB"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TDB"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["facilitator@datascience.wisc.edu"]   # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.carpentries.org/2022-11-02-uwmadison-python # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+eventbrite: 426255199777         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -177,13 +177,14 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
+    Participants must be familiar with Git and the Command Shell as well as a basic knowledge of Python programming. Participants can take a <a href="https://carpentries-incubator.github.io/python-intermediate-development/quiz/index.html">short quiz</a> to test their prerequisite knowledge.
+    Participants must also bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants must also be familiar using Git and the command shell, as well as basic knowledge of programming in Python. Participants can take a <a href="https://carpentries-incubator.github.io/python-intermediate-development/quiz/index.html">short quiz</a> to test their prerequisite knowledge.
+  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -375,7 +376,6 @@ Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list 
 Edit/replace the text above if you want to include a schedule table.
 See the contents of the _includes/custom-schedule.html file for an example of
 how one of these schedule tables is constructed.
-
 {% endcomment %}
 
 {% if site.pilot %}
@@ -426,7 +426,7 @@ For online workshops, the section below provides:
 
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instructions.
+to include the relevant installation instrucctions.
 {% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
